@@ -1,0 +1,50 @@
+
+.image{
+   font-family: 'Qwitcher Grypen', cursive;
+   font-weight: 900;
+   width: 100%;
+   height: 400px;
+   display: flex;
+   Justify-content: center;
+   align-items: center; 
+   color: white;
+   letter-spacing: 5px;
+   font-size:3rem;
+   background-position: center;
+   background-size: cover;
+   background-image:linear-gradient(360deg,transparent,rgba(215, 166, 0, 0.5),rgba(215, 166, 0, 0.5)), url(https://w0.peakpx.com/wallpaper/863/651/HD-wallpaper-red-cake-pastries-desserts-cakes-strawberry-cake-berry-cake.jpg);
+}
+@media screen and (max-width: 800px) {
+    .image , .con {
+      width: 100%; 
+      font-size: medium;
+      font-weight: bold;
+ }
+}
+.con{
+    margin-top: 50px;
+    color: rgb(241, 9, 113);
+    font-family: 'Combo', cursive;
+    font-weight: bold;
+    
+}
+.con1{
+    color: black;
+    text-align: center;
+    margin-bottom: 150px;
+    margin-right: 350px;
+    margin-left: 300px;
+
+}
+@media screen and (max-width: 800px) {
+    .con1 {
+        width: 90%;
+      font-size: medium;
+      text-align: center;
+      align-items: center;
+      margin-left: 15px;
+      margin-right: 1px;
+      background-color: rgba(0, 8, 1, 0.071);
+
+ }
+}
