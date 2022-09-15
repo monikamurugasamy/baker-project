@@ -11,7 +11,7 @@ const cart = () => {
    <img src = "https://w0.peakpx.com/wallpaper/863/651/HD-wallpaper-red-cake-pastries-desserts-cakes-strawberry-cake-berry-cake.jpg" style={{ height:"400px",width:"300px"}} alt="" />
       <h3>Cakes</h3>
       <div class="price">Rs2.00</div>
-      <a href="Cart" class="button3">Button</a>
+      <a href="Cart" class="button3">Add to cart</a>
    </div>
 
    <div class="product" data-name="p-2">
