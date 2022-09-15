@@ -7,6 +7,7 @@ import Classes from './pages/Classes.js';
 import Items from './pages/Items.js';
 import Cart from './pages/Cart.js';
 import Footer from './components/Footer.js';
+import Signup from './register/signup.js';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
                      <Route path={'/Classes'} element={<Classes />} />
                      <Route path={'/Items'} element={<Items />} />
                      <Route path={'/cart'} element={<Cart />} />
+                     <Route path={'/signup'} element={<Signup />} />
+
                   </Routes>
     </BrowserRouter>
     <Footer />

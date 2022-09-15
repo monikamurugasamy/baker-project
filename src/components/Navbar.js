@@ -45,12 +45,12 @@ function Navbar() {
                   </a>
 
                    <a
-                    href="#"
+                    href="Login"
                       >
-                    <b>  {'   '}Login/signup</b>
+                    <b> Login</b>
                   </a>
-                  <a href="#">
-                    <b>Register as baker</b>
+                  <a href="signup">
+                    <b>Register as cutomer</b>
                   </a>
                 </div>
               </div>
